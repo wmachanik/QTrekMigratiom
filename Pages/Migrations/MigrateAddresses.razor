@@ -1,0 +1,36 @@
+﻿@page "/MigrateItems"
+@inherits MigrateAddressesBase
+
+<h3>Migrate Address Data</h3>
+<div style="min-height: 40px">
+    @if (ShowSpinner)
+    {
+        <Wave />
+    }
+</div>
+
+<MigrationStatus MigrationStati="MigrationStati" />
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <button class="btn-primary" @onclick="MigrateCity_Click"><span class="oi oi-home" />Areas</button>
+        </div>
+        <div class="col">
+            <button class="btn-outline-primary" @onclick="MigratePrep_Click"><span class="oi oi-arrow-thick-left" />  Preps</button>
+        </div>
+        <div class="col">
+            <button class="btn-info" @onclick="MigrateItemUnits_Click"><span class="oi oi-loop-square" /> Item Units</button>
+        </div>
+        <div class="col">
+            <button class="btn-info" @onclick="MigrateServiceTypes_Click"><span class="oi oi-loop" /> Service Type</button>
+        </div>
+        <div class="col">
+            <button class="btn-light" @onclick="MigrateItems_Click"><span class="oi oi-transfer" />  Items</button>
+        </div>
+        <div class="col">
+            <button class="btn-outline-primary" @onclick="MigrateItemGroups_Click"><span class="oi oi-expand-down" /> Item Groups</button>
+        </div>
+    </div>
+</div>

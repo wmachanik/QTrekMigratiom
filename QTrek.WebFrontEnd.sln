@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QTrek.WebFrontEnd", "QTrek.WebFrontEnd.csproj", "{81539DD2-A9DD-410D-9768-0C69B795498A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QTrek.Source", "..\QTrek.Source\QTrek.Source.csproj", "{2103DDD8-CD5B-4879-BEE1-9751395A7DCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QTrek.Target", "..\QTrek.Target\QTrek.Target.csproj", "{B5A63DBD-31CE-4ADE-A453-4606B2D754A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QTrek.Tools", "..\QTrek.Tools\QTrek.Tools.csproj", "{6BFF2F4B-DA6B-491C-819F-2A6E2CA0EC02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iSele.Models", "..\iSele.Models\iSele.Models.csproj", "{4C7719BA-E907-42D7-A74E-E434F02510E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81539DD2-A9DD-410D-9768-0C69B795498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81539DD2-A9DD-410D-9768-0C69B795498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81539DD2-A9DD-410D-9768-0C69B795498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81539DD2-A9DD-410D-9768-0C69B795498A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2103DDD8-CD5B-4879-BEE1-9751395A7DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2103DDD8-CD5B-4879-BEE1-9751395A7DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2103DDD8-CD5B-4879-BEE1-9751395A7DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2103DDD8-CD5B-4879-BEE1-9751395A7DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A63DBD-31CE-4ADE-A453-4606B2D754A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A63DBD-31CE-4ADE-A453-4606B2D754A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A63DBD-31CE-4ADE-A453-4606B2D754A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A63DBD-31CE-4ADE-A453-4606B2D754A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFF2F4B-DA6B-491C-819F-2A6E2CA0EC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFF2F4B-DA6B-491C-819F-2A6E2CA0EC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFF2F4B-DA6B-491C-819F-2A6E2CA0EC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFF2F4B-DA6B-491C-819F-2A6E2CA0EC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7719BA-E907-42D7-A74E-E434F02510E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7719BA-E907-42D7-A74E-E434F02510E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7719BA-E907-42D7-A74E-E434F02510E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7719BA-E907-42D7-A74E-E434F02510E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1C14CF-3447-4648-A021-AE72C226FBA7}
+	EndGlobalSection
+EndGlobal

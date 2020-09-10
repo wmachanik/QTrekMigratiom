@@ -1,0 +1,57 @@
+﻿<ul class="nav flex-column">
+    @if (ShowAll)
+    {
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="MigrateAll">
+                <span class="oi oi-home" aria-hidden="true"></span> Migrate All
+            </NavLink>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+    }
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateSystemData">
+            <span class="oi oi-cog" aria-hidden="true"></span> Mx System
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateItems">
+            <span class="oi oi-list-rich" aria-hidden="true"></span> Migrate Items
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateAddresses">
+            <span class="oi oi-data-transfer-download" aria-hidden="true"></span> Migrate Addresses
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateCustomers">
+            <span class="oi oi-person" aria-hidden="true"></span> Migrate Customers
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateLookups">
+            <span class="oi oi-dial" aria-hidden="true"></span> Migrate Lookups
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateOrders">
+            <span class="oi oi-cart" aria-hidden="true"></span> Migrate Orders
+        </NavLink>
+    </li>
+    <li class="nav-item px-3">
+        <NavLink class="nav-link" href="MigrateRepairs">
+            <span class="oi oi-wrench" aria-hidden="true"></span> Migrate Repairs
+        </NavLink>
+    </li>
+</ul>
+@code {
+    [Parameter]
+    public bool ShowAll { get; set; }
+}

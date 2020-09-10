@@ -1,0 +1,30 @@
+﻿@page "/migratesystemdata"
+@inherits MigrateSystemDataBase
+
+<h3>Migrate System Data</h3>
+<div style="min-height: 40px">
+    @if (ShowSpinner)
+    {
+        <Wave />
+    }
+</div>
+
+<MigrationStatus MigrationStati="MigrationStati" />
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <button class="btn-primary" @onclick="MigrateSysPrefs_Click">Migrate Sys Prefs</button>
+        </div>
+        <div class="col">
+            <button class="btn-dark" @onclick="MigrateWeekDays_Click">Migrate WeekDays</button>
+        </div>
+        <div class="col">
+            <button class="btn-info" @onclick="MigrateTotalCounter_Click">Migrate Total Counter</button>
+        </div>
+        <div class="col">
+            <button class="btn-light" @onclick="MigratePersons_Click">Migrate Persons</button>
+        </div>
+    </div>
+</div>
